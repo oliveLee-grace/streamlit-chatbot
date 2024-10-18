@@ -1,60 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
-  <diagram name="페이지-1" id="NW7LC0UDv3btoMPZie2E">
-    <mxGraphModel dx="704" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="페이지-1" id="e4GK9kdq_VKWwlAcWrqR">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-1" value="노드 이름:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;init_answer&lt;/span&gt;&lt;div&gt;함수 이름:&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;init_answer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능:코드를 생성할지 여부 확인, 답변 생성&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="140" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-2" value="노드 이름:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;answer&lt;/span&gt;&lt;div&gt;함수 이름:&amp;nbsp;&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;answer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능: 답변 생성&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="280" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-3" value="노드 이름:&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;query&lt;/span&gt;&lt;div&gt;함수 이름:&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;query&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능: 코드를 생성&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="280" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-4" value="노드 이름:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;answer_with_data&lt;/span&gt;&lt;div&gt;함수 이름:&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;answer_with_data&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능: 데이터를 기반으로 답변 생성&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="450" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tkDe7_IoKkw9gbOOZhGF-1" target="tkDe7_IoKkw9gbOOZhGF-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="310" as="sourcePoint" />
-            <mxPoint x="500" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-6" value="decide_query에서 &quot;query&quot;가 리턴 되는 경우" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="tkDe7_IoKkw9gbOOZhGF-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-8" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;END&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="650" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tkDe7_IoKkw9gbOOZhGF-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="200" as="sourcePoint" />
-            <mxPoint x="500" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-13" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;decide_query에서 &quot;answer&quot;가 리턴 되는 경우&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="tkDe7_IoKkw9gbOOZhGF-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tkDe7_IoKkw9gbOOZhGF-4" target="tkDe7_IoKkw9gbOOZhGF-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="530" as="sourcePoint" />
-            <mxPoint x="470" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tkDe7_IoKkw9gbOOZhGF-2" target="tkDe7_IoKkw9gbOOZhGF-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="530" as="sourcePoint" />
-            <mxPoint x="470" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tkDe7_IoKkw9gbOOZhGF-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tkDe7_IoKkw9gbOOZhGF-3" target="tkDe7_IoKkw9gbOOZhGF-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="530" as="sourcePoint" />
-            <mxPoint x="470" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
